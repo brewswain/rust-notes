@@ -1,0 +1,1 @@
+/Users/brewswain/Desktop/Code/Rust/Notes/10_crates_and_modules/target/debug/libcrates_and_modules.rlib: /Users/brewswain/Desktop/Code/Rust/Notes/10_crates_and_modules/src/front_of_house/hosting.rs /Users/brewswain/Desktop/Code/Rust/Notes/10_crates_and_modules/src/front_of_house.rs /Users/brewswain/Desktop/Code/Rust/Notes/10_crates_and_modules/src/lib.rs

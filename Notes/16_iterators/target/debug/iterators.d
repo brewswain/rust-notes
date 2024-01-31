@@ -1,0 +1,1 @@
+/Users/brewswain/Desktop/Code/Rust/Notes/16_iterators/target/debug/iterators: /Users/brewswain/Desktop/Code/Rust/Notes/16_iterators/src/lib.rs /Users/brewswain/Desktop/Code/Rust/Notes/16_iterators/src/main.rs

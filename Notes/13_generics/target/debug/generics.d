@@ -1,0 +1,1 @@
+/Users/brewswain/Desktop/Code/Rust/Notes/13_generics/target/debug/generics: /Users/brewswain/Desktop/Code/Rust/Notes/13_generics/src/lifetimes.rs /Users/brewswain/Desktop/Code/Rust/Notes/13_generics/src/main.rs /Users/brewswain/Desktop/Code/Rust/Notes/13_generics/src/traits.rs
