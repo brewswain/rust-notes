@@ -1,1 +1,0 @@
-C:\Users\Blee\Important\Code\Rust\rust-notes\Projects\cli\target\debug\cli.exe: C:\Users\Blee\Important\Code\Rust\rust-notes\Projects\cli\src\lib.rs C:\Users\Blee\Important\Code\Rust\rust-notes\Projects\cli\src\main.rs
