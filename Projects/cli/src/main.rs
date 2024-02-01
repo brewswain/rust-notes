@@ -3,10 +3,16 @@ use std::{env, process};
 use cli::Config;
 
 fn main() {
-    let args: Vec<String> = env::args().collect(); // collect() turns the iterator into a vector containing all the values produced by the iterator.
+    // let args: Vec<String> = env::args().collect(); // collect() turns the iterator into a vector containing all the values produced by the iterator.
 
-    let config = Config::build(&args).unwrap_or_else(|err| {
-        // Using unwrap_or_else allows us to define some custom, non-panic! error handling. If the Result is an Ok value, this method’s behavior is similar to unwrap: it returns the inner value Ok is wrapping. However, if the value is an Err value, this method calls the code in the closure, which is an anonymous function we define and pass as an argument to unwrap_or_else.
+    // let config = Config::build(&args).unwrap_or_else(|err| {
+    //     // Using unwrap_or_else allows us to define some custom, non-panic! error handling. If the Result is an Ok value, this method’s behavior is similar to unwrap: it returns the inner value Ok is wrapping. However, if the value is an Err value, this method calls the code in the closure, which is an anonymous function we define and pass as an argument to unwrap_or_else.
+    //     eprintln!("Problem parsing arguments: {err}");
+    //     process::exit(1);
+    // });
+
+    // This returns an iterator via env::args(), but we have to change our build() to let this compile, so check out our changes in lib.rs
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
     });
