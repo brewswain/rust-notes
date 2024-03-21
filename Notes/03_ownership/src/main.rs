@@ -23,7 +23,7 @@ fn main() {
     return_multiple_values();
 }
 
-// String can be mutated (Note the capital S), but string literals can't.
+// A String can be mutated (Note the capital S), but string literals can't.
 
 // In the case of a string literal, since we know the contents at compile time, the text is hardcoded directly into the final executable. This causes string literals to be super efficient, but this comes due to the string literal's immutability.
 // Unfortunately, we can't place a blob of memory into the binary for each piece of text whose size is unknown at compile time and whose size might change while running the program.
